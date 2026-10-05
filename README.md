@@ -1,6 +1,14 @@
-# trivalibs
+# trivalibs-rs
 
 Shared Rust libraries used for graphics programming targeting WebAssembly and desktop.
+
+## Language lines
+
+This is the Rust line of trivalibs: multi-target, with fast native code. Its
+painter was the model for
+[trivalibs-scala](https://github.com/trival/scala-trivalibs), a Scala.js port
+for WebGPU in the browser with a similar API. For anything that targets the
+web, prefer trivalibs-scala. This line stays available for native apps.
 
 ## shader crates in trivalibs-painter
 
